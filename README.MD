@@ -23,7 +23,9 @@ A simple desktop chat app built with Python and Tkinter, powered by [GPT-OSS](ht
 pip install requests
 ```
 
-### 3. Set your API key
+If you get popup that says the package is externally managed you need to use ``apt install python3-requests``` instead.
+
+### 3. Set your API ke  y
 
 **Linux / macOS:**
 ```bash
@@ -41,7 +43,8 @@ $env:OLLAMA_API_KEY="your-key-here"
 ```
 
 > 💡 To avoid setting this every time, add the export line to your `~/.bashrc` or `~/.zshrc` (Linux/macOS), or set it as a permanent system environment variable on Windows.
-```echo 'export OLLAMA_API_KEY="your-key-here"' >> ~/.bashrc
+```bash
+echo 'export OLLAMA_API_KEY="your-key-here"' >> ~/.bashrc
 source ~/.bashrc```
 
 ### 4. Run the app
