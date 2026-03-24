@@ -25,7 +25,7 @@ pip install requests
 
 If you get popup that says the package is externally managed you need to use ``apt install python3-requests``` instead.
 
-### 3. Set your API ke  y
+### 3. Set your API key
 
 **Linux / macOS:**
 ```bash
