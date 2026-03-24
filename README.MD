@@ -45,7 +45,9 @@ $env:OLLAMA_API_KEY="your-key-here"
 > 💡 To avoid setting this every time, add the export line to your `~/.bashrc` or `~/.zshrc` (Linux/macOS), or set it as a permanent system environment variable on Windows.
 ```bash
 echo 'export OLLAMA_API_KEY="your-key-here"' >> ~/.bashrc
-source ~/.bashrc```
+source ~/.bashrc
+```
+
 
 ### 4. Run the app
 
